@@ -36,7 +36,7 @@ function Banner() {
                     </div>
                     <button className="mt-6 btn btn-outline btn-success">Login</button>
                 </div>
-                <div className="w-full md:w-1/2 order-1 mt-14 -z-10">
+                <div className="w-full md:w-1/2 order-1 mt-14">
                     <img src={banner} className="mask mask-squircle w-10/12" alt="Forest"/>
                     
                 </div>
