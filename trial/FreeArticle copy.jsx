@@ -1,6 +1,6 @@
 import React from 'react'
-import list from '../../public/list.json'
-import Cards from "./Cards";
+import list from '../Frontend/public/list.json'
+import Cards from "../Frontend/src/components/Cards";
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -50,14 +50,19 @@ function FreeArticle() {
 
     return (
         <>
-            <div className="max-w-screen-2xl container mx-auto md:px-20 px-4 my-10">
+            <div className="max-w-screen-2xl container mx-auto md:px-20 px-4">
+                <div>
+                <h1 className="font-semibold text-x1 pb-2">Sample Article</h1>
+                <p>Read some articles to increase your knowledge towards forestry.</p>
+            </div>
+            <div >
                 <div className="slider-container">
-                    <Slider {...settings} >
-                        {filterData.map((item) => (<Cards item={item} key={item.id} />))}
+                    <Slider {...settings} className="mb-10 p-3 w-auto">
+                        {filterData.map((item)=>(<Cards item={item} key={item.id}/>))}
                     </Slider>
                 </div>
             </div>
-
+            </div>
         </>
     )
 }

@@ -1,66 +1,58 @@
 [
     {
         "id": 1,
-        "title": "Book of Jungle 1",
-        "details": "lorem shhbdx hwjs wjsjwk lorem shhbdx hwjs wjsjwk lorem shhbdx hwjs wjsjwk",
+        "title": "Explore the Canopy",
+        "details": "Embark on a Virtual Tour of the World's Most Majestic Forests",
         "price": 0,
-        "category": "Free",
-        "image": "https://picsum.photos/400/300/?jungle1"
+        "category": "Free"
     },
     {
         "id": 2,
-        "title": "Book of Jungle 2",
-        "details": "lorem shhbdx hwjs wjsjwk lorem shhbdx hwjs wjsjwk lorem shhbdx hwjs wjsjwk",
+        "title": "Forest Guardians",
+        "details": "Sustainable Forestry Practices for a Greener Tomorrow",
         "price": 0,
-        "category": "Free",
-        "image": "https://picsum.photos/400/300/?jungle2"
-    },
+        "category": "Free"
+        },
     {
         "id": 3,
-        "title": "Book of Jungle 3",
-        "details": "lorem shhbdx hwjs wjsjwk lorem shhbdx hwjs wjsjwk lorem shhbdx hwjs wjsjwk",
+        "title": "Wildlife Chronicles",
+        "details": "Discover the Fascinating Creatures of the Woodland Ecosystems",
         "price": 0,
-        "category": "Free",
-        "image": "https://picsum.photos/400/300/?jungle3"
+        "category": "Free"
     },
     {
         "id": 4,
-        "title": "Book of Jungle 4",
-        "details": "lorem shhbdx hwjs wjsjwk lorem shhbdx hwjs wjsjwk lorem shhbdx hwjs wjsjwk",
+        "title": "Nature's Classroom",
+        "details": "Educational Resources on Forest Conservation and Biodiversity",
         "price": 0,
-        "category": "Free",
-        "image": "https://picsum.photos/400/300/?jungle4"
+        "category": "Free"
     },
     {
         "id": 5,
-        "title": "Book of Jungle 5",
-        "details": "lorem shhbdx hwjs wjsjwk lorem shhbdx hwjs wjsjwk lorem shhbdx hwjs wjsjwk",
+        "title": "Health of the Woods",
+        "details": "Advanced Tools for Monitoring and Protecting Forest Ecosystems",
         "price": 0,
-        "category": "Free",
-        "image": "https://picsum.photos/400/300/?jungle5"
+        "category": "Free"
     },
     {
         "id": 6,
-        "title": "Book of Jungle 6",
-        "details": "lorem shhbdx hwjs wjsjwk lorem shhbdx hwjs wjsjwk lorem shhbdx hwjs wjsjwk",
+        "title": "Tales from the Forest Floor",
+        "details": "Engaging Blogs Sharing Adventures and Conservation Success Stories",
         "price": 0,
-        "category": "Free",
-        "image": "https://picsum.photos/400/300/?jungle6"
+        "category": "Free"
     },
     {
         "id": 7,
-        "title": "Book of Jungle 7",
-        "details": "lorem shhbdx hwjs wjsjwk lorem shhbdx hwjs wjsjwk lorem shhbdx hwjs wjsjwk",
+        "title": "Forestry Careers",
+        "details": "Your Portal to Opportunities in Forest Management and Conservation",
         "price": 0,
-        "category": "Free",
-        "image": "https://picsum.photos/400/300/?jungle7"
+        "category": "Free"
     },
     {
         "id": 8,
-        "title": "Book of Jungle 8",
-        "details": "lorem shhbdx hwjs wjsjwk lorem shhbdx hwjs wjsjwk lorem shhbdx hwjs wjsjwk",
+        "title": "Art in Nature",
+        "details": "A Gallery of Forest-Inspired Art and Photography",
         "price": 0,
-        "category": "Free",
-        "image": "https://picsum.photos/400/300/?jungle8"
+        "category": "Free"
     }
 ]
