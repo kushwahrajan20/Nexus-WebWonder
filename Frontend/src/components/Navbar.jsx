@@ -21,7 +21,7 @@ function Navbar() {
 
     const navItems = (<>
         <li><a>Home</a></li>
-        <li><a>Exploration</a></li>
+        <li><a>Explore</a></li>
         <li><a>Art&Photo</a></li>
         <li><a>Health</a></li>
         <li><a>Blogs</a></li>
@@ -65,8 +65,8 @@ function Navbar() {
                             </ul>
                         </div>
                         <div className="hidden md:block">
-                            <label className="px-3 py-2 boder rounded-md flex items-center gap-2">
-                                <input type="text" className="grow outline-none" placeholder="Search" />
+                            <label className="px-3 py-2 rounded-md flex items-center gap-2">
+                                <input type="text" className="grow outline-none bg-transparent" placeholder="Search" />
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     viewBox="0 0 16 16"
