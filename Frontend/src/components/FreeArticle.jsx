@@ -13,11 +13,14 @@ function FreeArticle() {
 
     var settings = {
         dots: true,
-        infinite: false,
-        speed: 1000,
+        infinite: true,
         slidesToShow: 3,
-        slidesToScroll: 3,
+        slidesToScroll: 1,
         initialSlide: 0,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        pauseOnHover: true,
+        
         responsive: [
             {
                 breakpoint: 1024,

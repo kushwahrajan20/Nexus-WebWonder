@@ -20,11 +20,11 @@ function Navbar() {
     );
 
     const navItems = (<>
-        <li><a>Home</a></li>
+        <li><a  href="/">Home</a></li>
         <li><a>Explore</a></li>
-        <li><a>Art&Photo</a></li>
+        <li><a href="/ArtAndPhoto">Art&Photo</a></li>
         <li><a>Health</a></li>
-        <li><a>Blogs</a></li>
+        <li><a href="/Blogs">Blogs</a></li>
         <li><a>Career</a></li>
         <li><a>Community</a></li>
         <li><a>More</a></li>

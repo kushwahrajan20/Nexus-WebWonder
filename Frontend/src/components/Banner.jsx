@@ -34,8 +34,8 @@ function Banner() {
                             <input type="text" className="grow" placeholder="Email" />
                         </label>
                     </div>
-                    <button className="mt-6 btn btn-outline btn-success">Login</button>
-                </div>
+                    <button className="m-6 border-green-600 border-2 text-green-600 px-4 py-2 rounded-md hover:bg-green-100 duration-300">Login</button>
+                    </div>
                 <div className="w-full md:w-1/2">
                     <img src={banner} className="mask mask-squircle w-10/12" alt="Forest"/>
                     

@@ -1,19 +1,18 @@
 import React from 'react'
-import Navbar from './components/Navbar'
-import Banner from './components/Banner'
-import FreeArticle from './components/FreeArticle'
-import Footer from './components/Footer'
-import Carousel from './components/Carousel'
+import { Route, Routes } from 'react-router-dom'
 
+import Home from './Home/Home'
+import ArtAndPhoto from './Art&Photo/ArtAndPhoto'
+import Blogs from './Blogs/Blogs'
 
 function App() {
   return (
     <>
-      <Navbar />
-      <Carousel />
-      <Banner />
-      <FreeArticle />
-      <Footer/>
+      <Routes>
+        <Route path="/" element={<Home />}></Route>
+        <Route path="/ArtAndPhoto" element={<ArtAndPhoto />}></Route>
+        <Route path="/Blogs" element={<Blogs/>}></Route>
+      </Routes>
     </>
   )
 }
