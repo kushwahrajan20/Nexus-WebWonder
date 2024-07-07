@@ -3,7 +3,7 @@ import React from 'react'
 function Cards({ item }) {
     return (
         <>
-            <div className="card w-96 border-2 border-green-600">
+            <div className="card md:w-96 w-fit  border-2 border-green-600">
                 <div className="card-body">
                     <h2 className="card-title">{item.title}</h2>
                     <p>{item.details}</p>

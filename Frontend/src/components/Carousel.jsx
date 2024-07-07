@@ -9,7 +9,7 @@ function Carousel() {
     return (
         <>
             <div>
-                <div className="carousel w-full my-16 rounded-lg ">
+                <div className="carousel w-full md:my-16 mt-16 rounded-lg ">
                     <div id="slide1" className="carousel-item relative w-full">
                         <img
                             src={banner1}
