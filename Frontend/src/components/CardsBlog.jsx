@@ -10,7 +10,7 @@ function CardsBlog({ item }) {
 
     return (
         <>
-            <div className="w-96 m-10 p-2 bg-white rounded-xl transform transition-all hover:-translate-y-2 duration-300 shadow-lg hover:shadow-2xl">
+            <div className="w-96 mx-auto my-10 p-2 bg-white rounded-xl transform transition-all hover:-translate-y-2 duration-300 shadow-lg hover:shadow-2xl">
                 <img className="h-48 w-96 object-cover mx-auto rounded-xl" src={item.image} alt="image" />
                 <div className="p-2">
                     <h2 className="font-bold text-lg mb-2 ">{item.heading}</h2>
