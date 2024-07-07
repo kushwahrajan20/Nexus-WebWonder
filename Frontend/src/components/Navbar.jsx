@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import Login from './Login';
+import { FcBiohazard } from "react-icons/fc";
 
 function Navbar() {
     const [sticky, setSticky] = useState(false);
@@ -57,6 +58,7 @@ function Navbar() {
                                 {navItems}
                             </ul>
                         </div>
+                        <FcBiohazard className="w-11 h-11" />
                         <a className="text-2xl text-green-600 font-bold cursor-pointer">Forestry</a>
                     </div>
                     <div className="navbar-end space-x-3">
@@ -82,9 +84,9 @@ function Navbar() {
                         </div>
                         <div className="">
                             <a className="bg-green-600 text-white px-3 py-2 rounded-md hover:bg-green-700 duration-300 cursor-pointer"
-                             onClick={()=>document.getElementById("my_modal_3").showModal()}
+                                onClick={() => document.getElementById("my_modal_3").showModal()}
                             >Login</a>
-                            <Login/>
+                            <Login />
                         </div>
                     </div>
                 </div>
