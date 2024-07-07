@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import Login from './Login';
 
 function Navbar() {
     const [sticky, setSticky] = useState(false);
@@ -20,7 +21,7 @@ function Navbar() {
     );
 
     const navItems = (<>
-        <li><a  href="/">Home</a></li>
+        <li><a href="/">Home</a></li>
         <li><a>Explore</a></li>
         <li><a href="/ArtAndPhoto">Art&Photo</a></li>
         <li><a>Health</a></li>
@@ -79,8 +80,11 @@ function Navbar() {
                                 </svg>
                             </label>
                         </div>
-                        <div className="bg-">
-                            <a className="bg-green-600 text-white px-3 py-2 rounded-md hover:bg-green-700 duration-300 cursor-pointer">Login</a>
+                        <div className="">
+                            <a className="bg-green-600 text-white px-3 py-2 rounded-md hover:bg-green-700 duration-300 cursor-pointer"
+                             onClick={()=>document.getElementById("my_modal_3").showModal()}
+                            >Login</a>
+                            <Login/>
                         </div>
                     </div>
                 </div>
