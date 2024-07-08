@@ -16,8 +16,9 @@ function CardsBlog({ item }) {
                     <h2 className="font-bold text-lg mb-2 ">{item.heading}</h2>
                     <p className="text-sm text-gray-600">{item.details}</p>
                 </div>
-                <div className="my-2 md:mx-28 mx-20">
-                    <button onClick={handleClick} className="mt-10 border-green-600 border-2 text-green-600 px-4 py-2 rounded-md hover:bg-green-100 duration-300">Learn More</button>
+                <div className="w-full mb-1 mt-4 flex justify-evenly">
+                    <button onClick={handleClick} className="m-1 w-1/2 border-green-600 border-2 text-green-600 px-4 py-2 rounded-md hover:bg-green-100 duration-300">Learn More</button>
+                    <button className="m-1 w-1/2 border-green-600 border-2 text-green-600 px-4 py-2 rounded-md hover:bg-green-100 duration-300">Save</button>
                 </div>
             </div>
         </>
