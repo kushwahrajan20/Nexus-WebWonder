@@ -27,7 +27,7 @@ function Navbar() {
         <li><a href="/Dashboard">Dashboard</a></li>
         <li><a href="/ArtAndPhoto">Art&Photo</a></li>
         <li><a href="/Blogs">Blogs</a></li>
-        <li><a>Career</a></li>
+        <li><a href="/Career">Career</a></li>
         <li><a>Community</a></li>
         <li><a>More</a></li>
     </>)

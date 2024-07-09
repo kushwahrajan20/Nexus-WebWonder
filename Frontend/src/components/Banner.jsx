@@ -3,7 +3,7 @@ import banner from '../../public/Planting.png'
 function Banner() {
     return (
         <>
-            <div className="max-w-screen-2xl container mx-auto md:px-20 px-4 flex flex-col md:flex-row my-7">
+            <div className="max-w-screen-2xl container mx-auto md:px-20 px-4 flex flex-col md:flex-row mt-7">
                 <div className="w-full md:w-1/2 mt-3 md:mt-7 ">
                     <div className="space-y-12">
                         <h1 className="text-4xl font-bold">
@@ -14,7 +14,7 @@ function Banner() {
                         </h1>
                         <p>
                             Explore the beauty, importance, and magic of our planet's woodlands like never before.
-                            Immerse yourself in interactive forest guides, virtual tours, & educational resources
+                            Immerse yourself in interactive forest guides, virtual tours, and educational resources
                             that reveal the secrets of sustainable forestry and wildlife conservation. Discover the
                             wonders of forest ecosystems, meet the professionals dedicated to preserving them, and
                             join a community passionate about protecting our forests for generations to come. Let's

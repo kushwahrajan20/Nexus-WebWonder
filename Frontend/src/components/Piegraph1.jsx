@@ -42,7 +42,7 @@ function Piegraph1() {
         <>
             <div>
                 <PieChart series={[{ data, innerRadius: 80 }]} {...size}>
-                    <PieCenterLabel>Center label</PieCenterLabel>
+                    <PieCenterLabel>GLOBAL</PieCenterLabel>
                 </PieChart>
             </div>
         </>

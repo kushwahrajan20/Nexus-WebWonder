@@ -10,7 +10,6 @@ function Graph1() {
 
     return (
         <>
-
             <BarChart
                 width={600}
                 height={400}
@@ -32,6 +31,7 @@ function Graph1() {
                 yAxis={[{ id: 'leftAxisId' }, { id: 'rightAxisId' }]}
                 rightAxis="rightAxisId"
             />
+
         </>
     )
 }

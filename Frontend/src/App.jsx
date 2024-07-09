@@ -6,6 +6,7 @@ import ArtAndPhoto from './Art&Photo/ArtAndPhoto'
 import Blogs from './Blogs/Blogs'
 import Signup from './components/Signup'
 import Dashboard from './Dashboard/Dashboard'
+import Career from './Career/Career'
 
 function App() {
   return (
@@ -16,6 +17,8 @@ function App() {
         <Route path="/ArtAndPhoto" element={<ArtAndPhoto />}></Route>
         <Route path="/Blogs" element={<Blogs/>}></Route>
         <Route path="/Dashboard" element={<Dashboard/>}></Route>
+        <Route path="/Career" element={<Career/>}></Route>
+
       </Routes>
     </>
   )
