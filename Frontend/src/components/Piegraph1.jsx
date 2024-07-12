@@ -40,7 +40,7 @@ function Piegraph1() {
 
     return (
         <>
-            <div>
+            <div className='overflow-x-scroll md:overflow-x-hidden'>
                 <PieChart series={[{ data, innerRadius: 80 }]} {...size}>
                     <PieCenterLabel>GLOBAL</PieCenterLabel>
                 </PieChart>

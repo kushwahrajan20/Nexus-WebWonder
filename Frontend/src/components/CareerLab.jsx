@@ -14,8 +14,8 @@ function CareerLab() {
                         <span className="text-green-600">Your ideal job{" "}</span> awaits, start the search
                     </h1>
                 </div>
-                <div className="flex w-full m-4">
-                    <div className="w-1/3 m-2 border-2 text-center border-green-600 rounded-2xl">
+                <div className="flex w-full md:m-4">
+                    <div className="hidden md:inline w-1/3 m-2 border-2 text-center border-green-600 rounded-2xl">
                         <h1 className="text-2xl m-3">
                             Latest update
                         </h1> 
@@ -23,12 +23,12 @@ function CareerLab() {
                             list1.map((item) => (<LatestUpdate key={item.id} item={item} />))
                         }                       
                     </div>
-                    <div className="md:w-3/4 ">
+                    <div className="w-full md:w-3/4 ">
                         {
                             list.map((item) => (<CardCareer key={item.id} item={item} />))
                         }
                     </div>
-
+                    
                 </div>
             </div>
         </>

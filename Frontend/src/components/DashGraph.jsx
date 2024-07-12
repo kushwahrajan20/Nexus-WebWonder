@@ -20,7 +20,7 @@ function DashGraph() {
                     </p>
                 </div>
 
-                <div className='md:max-w-screen-2xl border-2 md:border-green-600 rounded-lg m-4 mt-7 p-3 flex  transform transition-all hover:-translate-y-2 duration-300 hover:shadow-2xl'>
+                <div className='hidden  md:max-w-screen-2xl border-2 md:border-green-600 rounded-lg m-4 mt-7 p-3 md:flex  transform transition-all hover:-translate-y-2 duration-300 hover:shadow-2xl'>
                     <div className="w-5/6 ">
                         <iframe id='maprandom' src="https://www.globalforestwatch.org/map/global/?mainMap=eyJoaWRlTGVnZW5kIjp0cnVlLCJzaG93QW5hbHlzaXMiOnRydWV9&map=eyJjZW50ZXIiOnsibGF0IjoyNy4yMDEyMTQ0OTAwODM4NCwibG5nIjoxMi4yMDA5NzAyMTcxNDQwMjR9LCJ6b29tIjoyLjAwMDAwMDAwMDAwMDAwMTgsImRhdGFzZXRzIjpbeyJkYXRhc2V0IjoicG9saXRpY2FsLWJvdW5kYXJpZXMiLCJsYXllcnMiOlsiZGlzcHV0ZWQtcG9saXRpY2FsLWJvdW5kYXJpZXMiLCJwb2xpdGljYWwtYm91bmRhcmllcyJdLCJib3VuZGFyeSI6dHJ1ZSwib3BhY2l0eSI6MSwidmlzaWJpbGl0eSI6dHJ1ZX1dfQ%3D%3D&mapMenu=eyJkYXRhc2V0Q2F0ZWdvcnkiOiJmb3Jlc3RDaGFuZ2UifQ%3D%3D&mapPrompts=eyJvcGVuIjp0cnVlLCJzdGVwc0tleSI6InJlY2VudEltYWdlcnkiLCJzdGVwc0luZGV4IjowfQ%3D%3D"
                             className="rounded-md"
@@ -101,7 +101,6 @@ function DashGraph() {
                                 COMPONENTS OF NET CHANGE IN TREE COVER GLOBALLY
                             </h1>
                             <p>From 2000 to 2020, the world experienced a net change of -101 Mha (-2.4%) in tree cover.</p>
-
                             <Piegraph2 />
                         </div>
 
@@ -112,7 +111,7 @@ function DashGraph() {
                                 From 2002 to 2023, there was a total of 76.3 Mha humid primary forest lost globally, making up 16% of its total tree cover loss in the same time period. Total area of humid primary forest decreased globally by 7.4% in this time period.
                             </p>
 
-                            <Graph1 />
+                            <Graph1/>
                         </div>
                     </div>
                     <div className="w-full md:w-1/2 text-center">

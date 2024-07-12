@@ -1,19 +1,17 @@
 import React from 'react'
+import FormCareer from './FormCareer'
 
 function CardCareer({ item }) {
     return (
         <>
-            <div className="collapse border-2 border-green-600 my-1">
+            <div className="collapse border-2 border-green-600 my-2">
                 <input type="radio" name="my-accordion-1" />
                 <div className="collapse-title text-lg font-medium flex">
                     {item.title}
-                    <button className="ml-auto text-green-600 border-2 border-green-600 rounded-md py-2 px-4">
-                        Apply now
-                    </button>
                 </div>
                 <div className="collapse-content w-full flex flex-col md:flex-row">
                     <div className="w-full md:w-1/2 object-cover">
-                        <img className="h-96 w-96 object-cover m-3 rounded-xl" src={item.img} alt="image" />
+                        <img className="h-96 w-96 object-cover md:m-4 rounded-xl" src={item.img} alt="image" />
                     </div>
                     <div className="w-full md:w-1/2">
                         <p className='m-3'><span className='underline '>Salary</span> : <div>{item.salary}</div></p>
@@ -27,6 +25,11 @@ function CardCareer({ item }) {
                             <ul>{item.d4}</ul>
                             <ul>{item.d5}</ul>
                         </div>
+                        <button className="bg-green-600 text-white rounded-md px-3 py-1.5 hover:bg-green-700 duration-2000"
+                        onClick={() => document.getElementById("my_modal_4").showModal()}>
+                            Apply now
+                        </button>
+                        <FormCareer />
                     </div>
                 </div>
             </div>

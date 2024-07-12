@@ -33,7 +33,7 @@
         "skill": "Ecology, conservation, research, policy",
         "d1": "Develop and implement environmental policies and programs",
         "d2": "Conduct research and monitoring on environmental issues",
-        "d3": "Analyze data and prepare reports on environmental findings",
+        "d3": "Analyze data and prepare reports",
         "d4": "",
         "d5": "",
         "img": "https://img.freepik.com/free-photo/men-discussing-outdoors-high-angle_23-2149426493.jpg?uid=R129882358&ga=GA1.1.1940155493.1720067277"
@@ -46,7 +46,7 @@
         "skill": "Wildlife management, ecology, conservation, research",
         "d1": "Study and manage wildlife populations and habitats",
         "d2": "Conduct research and monitoring on wildlife behavior and ecology",
-        "d3": "Develop and implement conservation plans for wildlife species",
+        "d3": "Develop and implement conservation plans",
         "d4": "",
         "d5": "",
         "img": "https://img.freepik.com/free-photo/young-man-engineer-working-factory_1303-28456.jpg?uid=R129882358&ga=GA1.1.1940155493.1720067277"
@@ -60,7 +60,7 @@
         "d1": "Develop and implement conservation plans for threatened and endangered species",
         "d2": "Conduct research and monitoring on species ecology and behavior",
         "d3": "Collaborate with stakeholders on conservation projects",
-        "d4": "Ensure compliance with conservation regulations",
+        "d4": "",
         "d5": "",
         "img": "https://img.freepik.com/free-photo/male-scientist-carefully-studies-his-data_1153-5134.jpg?uid=R129882358&ga=GA1.1.1940155493.1720067277&semt=ais_user"
     },
@@ -74,7 +74,7 @@
         "d2": "Operate forestry equipment and tools",
         "d3": "Conduct forest inventories and assessments",
         "d4": "Monitor forest health and productivity",
-        "d5": "Assist with forest management planning",
+        "d5": "",
         "img": "https://img.freepik.com/free-photo/close-up-park-ranger-woods_23-2149309542.jpg?uid=R129882358&ga=GA1.1.1940155493.1720067277&semt=ais_user"
     },
     {
@@ -86,7 +86,7 @@
         "d1": "Provide technical assistance to farmers and agricultural producers",
         "d2": "Develop and implement crop plans and soil management strategies",
         "d3": "Manage pest control and fertilizer applications",
-        "d4": "Ensure compliance with regulations and standards",
+        "d4": "Ensure compliance with regulations",
         "d5": "",
         "img": "https://www.environmentalscience.org/wp-content/uploads/2015/01/agriculture-inspector-640x542.jpg"
     },
@@ -99,7 +99,7 @@
         "d1": "Study ecosystems and ecological processes",
         "d2": "Conduct research and monitoring on ecological issues",
         "d3": "Analyze data and prepare reports on ecological findings",
-        "d4": "Collaborate with stakeholders on ecological projects",
+        "d4": "Collaborate with stakeholders on projects",
         "d5": "",
         "img": "https://img.freepik.com/free-photo/smiling-young-woman-holding-map-forest_23-2147847145.jpg?uid=R129882358&ga=GA1.1.1940155493.1720067277&semt=ais_user"
     },
@@ -125,7 +125,7 @@
         "d1": "Manage urban forests to maintain ecosystem health and productivity",
         "d2": "Develop and implement urban forest management plans",
         "d3": "Monitor urban forest condition and productivity",
-        "d4": "Ensure compliance with urban forest regulations and laws",
+        "d4": "Ensure compliance with urban forest regulations",
         "d5": "",
         "img": "https://img.freepik.com/free-photo/close-up-park-rangers-woods_23-2149309593.jpg?t=st=1720721029~exp=1720724629~hmac=09794fcdd16a2f1c59b593b7c8e511d9630ece4893482415378c31bc7eda711e&w=1060"
     },
@@ -135,7 +135,7 @@
         "salary": "₹33,541 per month",
         "qualification": "Bachelor's in Fisheries or Wildlife Management or related field",
         "skill": "Fisheries management, wildlife management, ecology, conservation",
-        "d1": "Manage fisheries and wildlife populations and habitats",
+        "d1": "Manage fisheries and wildlife populations",
         "d2": "Develop and implement conservation plans for fish and wildlife species",
         "d3": "Conduct research and monitoring on fish",
         "d4": "",
@@ -162,7 +162,7 @@
         "qualification": "Bachelor's in Water Resources Engineering or related field",
         "skill": "Water resources engineering, hydrology, ecology, conservation",
         "d1": "Design and manage water resource systems",
-        "d2": "Develop and implement water management plans",
+        "d2": "Develop and implement water management",
         "d3": "Monitor water quality and quantity",
         "d4": "Ensure compliance with water regulations",
         "d5": "",
@@ -178,7 +178,7 @@
         "d2": "Develop and implement business plans and marketing strategies",
         "d3": "Manage finances and human resources",
         "d4": "Ensure compliance with regulations",
-        "d5": "Optimize business performance and profitability",
+        "d5": "",
         "img": "https://img.freepik.com/free-photo/reforestation-done-by-voluntary-group_23-2149500811.jpg?t=st=1720721307~exp=1720724907~hmac=76bb5f0827beb59ee4175a7323b0ba71feb3f24cb9f90d489819aef5333f6985&w=360"
     },
     {
@@ -193,5 +193,31 @@
         "d4": "",
         "d5": "",
         "img": "https://img.freepik.com/free-photo/reforestation-done-by-voluntary-group_23-2149500806.jpg?uid=R129882358&ga=GA1.1.1940155493.1720067277&semt=ais_user"
+    },
+    {
+        "id": "16",
+        "title": "Forestics Biologist",
+        "salary": "₹28,419 per month",
+        "qualification": "Bachelor's in Conservation Biology or related field",
+        "skill": "Ecology, conservation, research, policy",
+        "d1": "Develop and implement conservation plans for threatened and endangered species",
+        "d2": "Conduct research and monitoring on species ecology and behavior",
+        "d3": "Collaborate with stakeholders on conservation projects",
+        "d4": "",
+        "d5": "",
+        "img": "https://img.freepik.com/free-photo/young-man-young-woman-hiker_1150-5693.jpg?uid=R129882358&ga=GA1.1.1940155493.1720067277&semt=ais_user-customized"
+    },
+    {
+        "id": "17",
+        "title": "Forestry Expert",
+        "salary": "₹22,191 per month",
+        "qualification": "Associate's in Forestry or related field",
+        "skill": "Forestry techniques, equipment operation, data collection",
+        "d1": "Assist foresters with forest management and data collection",
+        "d2": "Operate forestry equipment and tools",
+        "d3": "Conduct forest inventories and assessments",
+        "d4": "Monitor forest health and productivity",
+        "d5": "",
+        "img": "https://img.freepik.com/free-photo/young-agricultural-engineer-examines-leaves-greenhouse_1153-5356.jpg?uid=R129882358&ga=GA1.1.1940155493.1720067277&semt=ais_user-customized"
     }
 ]

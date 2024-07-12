@@ -12,6 +12,7 @@ function Graph3() {
 
     return (
         <>
+            <div className="overflow-x-scroll md:overflow-x-hidden">
 
                 <BarChart
                     width={600}
@@ -25,6 +26,7 @@ function Graph3() {
                     ]}
                     xAxis={[{ data: xLabels, scaleType: 'band' }]}
                 />
+            </div>
         </>
     )
 }

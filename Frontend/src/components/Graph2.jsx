@@ -13,7 +13,7 @@ function Graph2() {
 
     return (
         <>
-           
+                   <div className="overflow-x-scroll md:overflow-x-hidden">
                 <BarChart
                     width={600}
                     height={400}
@@ -27,7 +27,7 @@ function Graph2() {
                     ]}
                     xAxis={[{ data: xLabels, scaleType: 'band' }]}
                 />
-
+            </div>
         </>
     )
 }
