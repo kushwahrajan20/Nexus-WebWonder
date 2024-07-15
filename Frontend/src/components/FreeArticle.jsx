@@ -1,15 +1,31 @@
-import React from 'react'
-import list from '../../public/list.json'
+import React, { useEffect, useState } from 'react'
+//import list from '../../public/list.json'
 import Cards from "./Cards";
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 
+import axios from 'axios'
 
 function FreeArticle() {
 
-    const filterData = list.filter((data) => data.category === "Free");
+    const [freeArticle,setFreeArticle]=useState([])
+    useEffect(()=>{
+        const getFreeArticle=async()=>{
+            try {
+             const res =await  axios.get("http://localhost:4001/");
+             console.log(res.data);
+             setFreeArticle(res.data)
+
+            } catch (error) {
+                console.log(error)
+            }
+        };
+        getFreeArticle();
+    },[])
+
+    const filterData = freeArticle.filter((data) => data.category === "Free");
 
     var settings = {
         dots: true,
