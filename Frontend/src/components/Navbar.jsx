@@ -1,9 +1,15 @@
 import React, { useEffect, useState } from 'react'
 import Login from './Login';
 import { FcBiohazard } from "react-icons/fc";
+import Logout from './Logout';
+import { useAuth } from '../Context/AuthProvider';
 
 function Navbar() {
+
+    const [authUser, setAuthUser] = useAuth()
+
     const [sticky, setSticky] = useState(false);
+
     useEffect(() => {
         const handleScroll = () => {
             if (window.scrollY > 0) {
@@ -82,12 +88,15 @@ function Navbar() {
                                 </svg>
                             </label>
                         </div>
-                        <div className="">
-                            <a className="bg-green-600 text-white px-3 py-2 rounded-md hover:bg-green-700 duration-300 cursor-pointer"
-                                onClick={() => document.getElementById("my_modal_3").showModal()}
-                            >Login</a>
-                            <Login />
-                        </div>
+                        {
+                            authUser ? <Logout /> :
+                                <div className="">
+                                    <a className="bg-green-600 text-white px-3 py-2 rounded-md hover:bg-green-700 duration-300 cursor-pointer"
+                                        onClick={() => document.getElementById("my_modal_3").showModal()}
+                                    >Login</a>
+                                    <Login />
+                                </div>
+                        }
                     </div>
                 </div>
             </div >

@@ -4,7 +4,7 @@ import FormCareer from './FormCareer'
 function CardCareer({ item }) {
     return (
         <>
-            <div className="collapse border-2 border-green-600 my-2">
+            <div className="collapse border-2 border-green-600 mx-2 my-3">
                 <input type="radio" name="my-accordion-1" />
                 <div className="collapse-title text-lg font-medium flex">
                     {item.title}
