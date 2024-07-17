@@ -14,7 +14,7 @@ function FreeArticle() {
     useEffect(()=>{
         const getFreeArticle=async()=>{
             try {
-             const res =await  axios.get("http://localhost:4001/");
+             const res =await  axios.get("http://localhost:4001/freearticle");
              console.log(res.data);
              setFreeArticle(res.data)
 

@@ -34,12 +34,12 @@ function Navbar() {
         <li><a href="/ArtAndPhoto">Art&Photo</a></li>
         <li><a href="/Blogs">Blogs</a></li>
         <li><a href="/Career">Career</a></li>
-        <li><a>Community</a></li>
+        <li><a href='/Community'>Community</a></li>
         <li><a>More</a></li>
     </>)
     return (
         <>
-            <div className={`max-w-screen-2xl container outline-2 mx-auto md:px-20 px-4 fixed top-0 left-0 right-0 z-50 bg-base-200
+            <div className={`max-w-screen-2xl container outline-2 mx-auto md:px-20 px-4 fixed top-0 left-0 right-0 z-50 bg-base-100
                 ${sticky ? "sticky-navbar shadow-md bg-base-200 duration-300 transition-all ease-in-out" : ""}`}>
                 <div className="navbar">
                     <div className="navbar-start">
@@ -65,7 +65,7 @@ function Navbar() {
                             </ul>
                         </div>
                         <FcBiohazard className="w-11 h-11" />
-                        <a className="text-2xl text-green-600 font-bold cursor-pointer">Forestry</a>
+                        <a className="text-3xl text-green-600 font-bold cursor-pointer">Forestry</a>
                     </div>
                     <div className="navbar-end space-x-3">
                         <div className="navbar-center hidden lg:flex">

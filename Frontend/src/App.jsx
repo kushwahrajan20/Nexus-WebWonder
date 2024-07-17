@@ -10,6 +10,7 @@ import Signup from './components/Signup'
 import Dashboard from './Dashboard/Dashboard'
 import Career from './Career/Career'
 import Explore from './Explore/Explore'
+import Community from './Community/Community'
 
 function App() {
 
@@ -26,6 +27,8 @@ function App() {
         <Route path="/Dashboard" element={authUser? <Dashboard/>:<Navigate to='/Signup'/> }></Route>
         <Route path="/Career" element={authUser? <Career/>:<Navigate to='/Signup'/> }></Route>
         <Route path="/Explore" element={authUser? <Explore/>:<Navigate to='/Signup'/> }></Route>
+        <Route path="/Community" element={authUser? <Community/>:<Navigate to='/Signup'/> }></Route>
+        
       </Routes>
       <Toaster/>
     </>

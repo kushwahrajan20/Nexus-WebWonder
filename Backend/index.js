@@ -6,6 +6,7 @@ import cors from'cors'
 
 import FreeArticleRoute from "./route/FreeArticle.route.js"
 import userRoute from './route/user.route.js'
+import copostRoute from './route/CoPost.route.js'
 
 const app = express()
 
@@ -30,8 +31,9 @@ catch (error) {
 }
 
 //defining  routes
-app.use("/",FreeArticleRoute) //real path
+app.use("/freearticle",FreeArticleRoute) //real path
 app.use("/user",userRoute) //real path
+app.use("/community",copostRoute) //real path
 
 app.listen(PORT, () => {
     console.log(`Server is listening on port ${PORT}`)
