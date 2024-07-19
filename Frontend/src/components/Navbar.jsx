@@ -35,7 +35,7 @@ function Navbar() {
         <li><a href="/Blogs">Blogs</a></li>
         <li><a href="/Career">Career</a></li>
         <li><a href='/Community'>Community</a></li>
-        <li><a>More</a></li>
+        <li><a href='/Edupoint'>Edupoint</a></li>
     </>)
     return (
         <>
