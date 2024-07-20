@@ -31,11 +31,11 @@ function Navbar() {
         <li><a href="/">Home</a></li>
         <li><a href="/Explore">Explore</a></li>
         <li><a href="/Dashboard">Dashboard</a></li>
+        <li><a href='/Edupoint'>Education</a></li>
         <li><a href="/ArtAndPhoto">Art&Photo</a></li>
         <li><a href="/Blogs">Blogs</a></li>
         <li><a href="/Career">Career</a></li>
         <li><a href='/Community'>Community</a></li>
-        <li><a href='/Edupoint'>Edupoint</a></li>
     </>)
     return (
         <>
