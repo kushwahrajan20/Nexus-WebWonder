@@ -4,15 +4,25 @@ import banner2 from '../../public/rainforest2.jpg'
 import banner3 from '../../public/rainforest3.jpg'
 import banner4 from '../../public/rainforest4.jpg'
 import Slider from "react-slick";
-
+import { Component } from "react";
 
 function Carousel() {
+
+    var settings = {
+        dots: true,
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        pauseOnHover: true
+      };
 
     return (
         <>
             <div>
-                <div className="carousel w-full h-64 md:h-auto mt-16 rounded-md slider-container">
-
+                <div className="carousel w-full h-64 md:h-auto mt-16 rounded-md">
+               
                     <div id="slide1" className=" carousel-item relative w-full">
                         <img
                             src={banner1}
@@ -50,6 +60,7 @@ function Carousel() {
                         </div>
                     </div>
 
+        
                 </div>
             </div>
         </>

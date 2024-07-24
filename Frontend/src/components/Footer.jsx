@@ -3,54 +3,75 @@ import React from 'react'
 function Footer() {
   return (
     <div>
-      <footer className="footer footer-center bg-green-600 text-base-content rounded p-10">
-        <nav className="grid grid-flow-col  text-white gap-4">
-          <a className="link link-hover">About us</a>
-          <a className="link link-hover">Contact</a>
-          <a className="link link-hover">Jobs</a>
-          <a className="link link-hover">Press kit</a>
-        </nav>
-        <nav>
-          <div className="grid grid-flow-col gap-4">
-            <a>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                className="fill-white">
-                <path
-                  d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"></path>
-              </svg>
-            </a>
-            <a>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                className="fill-white">
-                <path
-                  d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"></path>
-              </svg>
-            </a>
-            <a>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                className="fill-white">
-                <path
-                  d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path>
-              </svg>
-            </a>
-          </div>
-        </nav>
-        <aside className=" text-white">
-          <p>Copyright © ${new Date().getFullYear()} - All right reserved by ACME Industries Ltd</p>
-        </aside>
-      </footer></div>
+      <footer class="bg-green-600 dark:bg-gray-900">
+                    <div class="container mx-auto px-6 py-12">
+                        <div class="md:-mx-3 md:flex md:items-center md:justify-between">
+                            <h1 class="text-3xl font-semibold tracking-tight text-white dark:text-white md:mx-3 xl:text-4xl">Subscribe our newsletter to get update.</h1>
+
+                            <div class="mt-6 shrink-0 md:mx-3 md:mt-0 md:w-auto">
+                                <a href="#" class="inline-flex w-full items-center justify-center rounded-lg bg-green-700 px-4 py-2 text-sm text-white duration-300 hover:bg-green-500 focus:ring focus:ring-gray-300 focus:ring-opacity-80">
+                                    <span class="mx-2">Sign Up Now</span>
+
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="mx-2 h-6 w-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+
+                        <hr class="my-6 border-gray-200 dark:border-gray-700 md:my-10" />
+
+                        <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+                            <div>
+                                <p class="font-semibold text-white dark:text-white">Quick Link</p>
+
+                                <div class="mt-5 flex flex-col items-start space-y-2">
+                                    <a href="#" class="text-white transition-colors duration-300 hover:text-blue-500 hover:underline dark:text-gray-300 dark:hover:text-blue-400">Home</a>
+                                    <a href="#" class="text-white transition-colors duration-300 hover:text-blue-500 hover:underline dark:text-gray-300 dark:hover:text-blue-400">Who We Are</a>
+                                    <a href="#" class="text-white transition-colors duration-300 hover:text-blue-500 hover:underline dark:text-gray-300 dark:hover:text-blue-400">Our Philosophy</a>
+                                </div>
+                            </div>
+
+                            <div>
+                                <p class="font-semibold text-white dark:text-white">Industries</p>
+
+                                <div class="mt-5 flex flex-col items-start space-y-2">
+                                    <a href="#" class="text-white transition-colors duration-300 hover:text-blue-500 hover:underline dark:text-gray-300 dark:hover:text-blue-400">Retail & E-Commerce</a>
+                                    <a href="#" class="text-white transition-colors duration-300 hover:text-blue-500 hover:underline dark:text-gray-300 dark:hover:text-blue-400">Information Technology</a>
+                                    <a href="#" class="text-white transition-colors duration-300 hover:text-blue-500 hover:underline dark:text-gray-300 dark:hover:text-blue-400">Finance & Insurance</a>
+                                </div>
+                            </div>
+
+                            <div>
+                                <p class="font-semibold text-white dark:text-white">Services</p>
+
+                                <div class="mt-5 flex flex-col items-start space-y-2">
+                                    <a href="#" class="text-white transition-colors duration-300 hover:text-blue-500 hover:underline dark:text-gray-300 dark:hover:text-blue-400">Translation</a>
+                                    <a href="#" class="text-white transition-colors duration-300 hover:text-blue-500 hover:underline dark:text-gray-300 dark:hover:text-blue-400">Proofreading & Editing</a>
+                                    <a href="#" class="text-white transition-colors duration-300 hover:text-blue-500 hover:underline dark:text-gray-300 dark:hover:text-blue-400">Content Creation</a>
+                                </div>
+                            </div>
+
+                            <div>
+                                <p class="font-semibold text-white dark:text-white">Contact Us</p>
+
+                                <div class="mt-5 flex flex-col items-start space-y-2">
+                                    <a href="#" class="text-white transition-colors duration-300 hover:text-blue-500 hover:underline dark:text-gray-300 dark:hover:text-blue-400">+880 768 473 4978</a>
+                                    <a href="#" class="text-white transition-colors duration-300 hover:text-blue-500 hover:underline dark:text-gray-300 dark:hover:text-blue-400">info@merakiui.com</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <hr class="my-6 border-gray-200 dark:border-gray-700 md:my-10" />
+
+                        <div class="flex flex-col items-center justify-between sm:flex-row">
+                            <a href="#" class="text-2xl font-bold text-white transition-colors duration-300 hover:text-gray-700 dark:text-white dark:hover:text-gray-300">Brand</a>
+
+                            <p class="mt-4 text-sm text-white dark:text-gray-300 sm:mt-0">© Copyright 2021. All Rights Reserved.</p>
+                        </div>
+                    </div>
+                </footer>
+    </div>
   )
 }
 

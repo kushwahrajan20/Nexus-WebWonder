@@ -34,3 +34,14 @@ export const copost= async(req,res)=>{
         res.status(500).json({ message: "Internal server error" });
     }
 }
+
+export const getcopost= async(req,res)=>{
+    try {
+        const getcopost = await CoPost.find()
+        res.status(200).json(getcopost)
+
+    } catch (error) {
+        console.log("Error: ",error)
+        res.status(500).json(error)
+    }
+}

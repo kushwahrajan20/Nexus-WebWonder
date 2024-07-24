@@ -1,13 +1,13 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
-import EdupointLab from '../components/EdupointLab'
 import Footer from '../components/Footer'
+import Education from '../components/Education'
 
 function Edupoint() {
   return (
     <>
     <Navbar/>
-    <EdupointLab/>
+    <Education/>
     <Footer/>
     </>
 )

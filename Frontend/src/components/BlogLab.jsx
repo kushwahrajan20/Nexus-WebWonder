@@ -1,7 +1,7 @@
 import React from 'react'
 
-import CardsBlog from './CardsBlog'
 import list from '../../public/blogs.json'
+import CardsBlog from './CardsBlog'
 
 function BlogLab() {
     return (
