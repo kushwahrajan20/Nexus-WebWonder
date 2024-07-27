@@ -3,10 +3,12 @@ import CoPost from "../model/CoPost.model.js";
 export const copost= async(req,res)=>{
     try {
         //request data from body 
-        const {image,title,details,tag1,tag2,tag3}=req.body
+        const {user,u,image,title,details,tag1,tag2,tag3}=req.body
         //create new post
         const createdPost= new CoPost({
             image:image,
+            user:user,
+            u:u,
             title:title,
             details:details,
             tag1:tag1,
@@ -21,6 +23,8 @@ export const copost= async(req,res)=>{
             copost:{
                 _id: createdPost._id,
                 image:createdPost.image,
+                user:createdPost.user,
+                u:createdPost.u,
                 title:createdPost.title,
                 details:createdPost.details,
                 tag1:createdPost.tag1,

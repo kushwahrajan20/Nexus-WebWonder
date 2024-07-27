@@ -6,6 +6,14 @@ const coPostSchema=mongoose.Schema(
             type:String,
             required:true
         },
+        user:{
+            type:String,
+            required:true
+        },
+        u:{
+            type:String,
+            required:true
+        },
         title:{
             type:String,
             required:true
