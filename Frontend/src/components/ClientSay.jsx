@@ -4,7 +4,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 
-function PhotoContributer() {
+function ClientSay() {
 
     var settings = {
         infinite: true,
@@ -18,7 +18,7 @@ function PhotoContributer() {
     return (
         <>
             <div className="slider-container max-w-screen-2xl container mx-auto md:px-20 px-4 my-12">
-                <h1 class="text-center text-3xl font-semibold capitalize text-gray-800 dark:text-white lg:text-4xl">Contributor </h1>
+                <h1 class="text-center text-3xl font-semibold capitalize text-gray-800 dark:text-white lg:text-4xl">What clients saying</h1>
 
                 <div class="mx-auto mt-6 flex justify-center">
                     <span class="inline-block h-1 w-40 rounded-full bg-green-500"></span>
@@ -199,4 +199,4 @@ function PhotoContributer() {
     )
 }
 
-export default PhotoContributer
+export default ClientSay

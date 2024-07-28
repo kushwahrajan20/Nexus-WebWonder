@@ -16,8 +16,9 @@ function ExploreLab() {
     <>
       <div className=''>
         {/* Title bar */}
-        <div className='h-10 mt-14 fixed  navbar bg-green-600'>
-          <h1 className='text-4xl text-white mx-auto mt-2'>Virtual Tour - Explore <span className='ml-3 text-white'>{typeEffect}</span><span className='text-white'>!</span></h1>
+        <div className='h-10 mt-14 fixed  navbar bg-slate-50 hover:scale-105 duration-500'>
+          <hr />
+          <h1 className='text-2xl font-extrabold text-green-600 mx-auto mt-2'>Virtual Tour - Explore <span className='ml-3 text-green-600'>{typeEffect}</span><span className='text-green-600'>!</span></h1>
         </div>
 
         {/* left button section */}

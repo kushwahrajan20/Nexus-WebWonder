@@ -25,10 +25,12 @@ function CardCareer({ item }) {
                             <ul>{item.d4}</ul>
                             <ul>{item.d5}</ul>
                         </div>
+                        <div className='ml-2'>
                         <button className="bg-green-600 text-white rounded-md px-3 py-1.5 hover:bg-green-700 duration-2000"
                         onClick={() => document.getElementById("my_modal_4").showModal()}>
                             Apply now
                         </button>
+                        </div>
                         <FormCareer />
                     </div>
                 </div>

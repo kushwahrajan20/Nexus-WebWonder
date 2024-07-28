@@ -111,7 +111,7 @@ function DashGraph() {
                                 From 2002 to 2023, there was a total of 76.3 Mha humid primary forest lost globally, making up 16% of its total tree cover loss in the same time period. Total area of humid primary forest decreased globally by 7.4% in this time period.
                             </p>
 
-                            <Graph1/>
+                            <Graph1 className='w-full'/>
                         </div>
                     </div>
                     <div className="w-full md:w-1/2 text-center">

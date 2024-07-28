@@ -65,8 +65,8 @@ function Navbar() {
                                 {navItems}
                             </ul>
                         </div>
-                        <FcBiohazard className="w-11 h-11" />
-                        <a className="text-3xl text-green-600 font-bold cursor-pointer">Forestry</a>
+                        <FcBiohazard className="w-8 h-8" />
+                        <a className="text-2xl text-green-600 font-bold cursor-pointer">Forestry</a>
                     </div>
                     <div className="navbar-end">
                         <div className="navbar-center hidden lg:flex">

@@ -1,7 +1,7 @@
 import React from 'react'
-import Slider from "react-slick";
 import FreeArticle from './FreeArticle';
-import MainBanner from './MainBanner';
+import ClientSay from './ClientSay';
+import { Link } from "react-router-dom";
 
 function AnotherHome() {
 
@@ -17,7 +17,9 @@ function AnotherHome() {
                             Immerse yourself in interactive forest guides, virtual tours, and educational resources
                             that reveal the secrets of sustainable forestry and wildlife conservation.
                         </p>
-                        <button className="mt-6 rounded-lg bg-green-600 px-6 py-2.5 text-center text-sm font-medium capitalize leading-5 text-white hover:bg-green-700 focus:outline-none lg:mx-0 lg:w-auto">Subscribe Now</button>
+                       <div className='mt-6'>
+                        <Link to='/Signup' className=" rounded-lg bg-green-600 px-6 py-2.5 text-center text-sm font-medium capitalize leading-5 text-white hover:bg-green-700 focus:outline-none lg:mx-0 lg:w-auto">Subscribe Now</Link>
+                        </div>
                     </div>
 
                     {/* banner section */}
@@ -138,6 +140,12 @@ function AnotherHome() {
                     </div>
                 </section>
 
+
+                {/* what client say */}
+                <div>
+                    <ClientSay />
+                </div>
+
                 {/* Contributors */}
                 <section className="bg-white dark:bg-gray-900">
                     <div className="h-[32rem] bg-gray-100 dark:bg-gray-800">
@@ -203,6 +211,7 @@ function AnotherHome() {
                     </div>
                 </div>
 
+                {/* frequently asked question */}
                 <section className="bg-white dark:bg-gray-900">
                     <div className="container mx-auto max-w-4xl px-6 py-10">
                         <h1 className="text-center text-4xl font-semibold text-gray-800 dark:text-white">Frequently asked questions</h1>
