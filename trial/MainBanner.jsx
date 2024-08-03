@@ -1,6 +1,6 @@
 import React from 'react'
 import Slider from "react-slick";
-import FreeArticle from './FreeArticle';
+import FreeArticle from '../Frontend/src/components/FreeArticle';
 
 function MainBanner() {
 

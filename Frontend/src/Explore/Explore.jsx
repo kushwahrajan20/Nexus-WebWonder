@@ -1,12 +1,12 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
-import ExploreLab from '../components/ExploreLab'
+import View from '../components/View'
 
 function Explore() {
   return (
     <>
         <Navbar/>
-        <ExploreLab/>
+        <View/>
     </>
   )
 }

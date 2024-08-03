@@ -10,24 +10,54 @@ function AnotherHome() {
             <div className='mt-12'>
                 <div className="container mx-auto px-6 py-16 h-screen text-center rounded-md bg-scroll bg-[url('https://images.unsplash.com/photo-1526004666140-1863a31e024f?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')]">
 
-                    {/* Header section */}
                     <div className="mx-auto max-w-lg p-7 mt-44 rounded-md bg-white bg-opacity-80">
                         <h1 className="text-3xl font-bold text-gray-800 dark:text-white lg:text-5xl">Welcome to world of forestry!</h1>
                         <p className="mt-6 text-gray-700 dark:text-gray-300">
                             Immerse yourself in interactive forest guides, virtual tours, and educational resources
                             that reveal the secrets of sustainable forestry and wildlife conservation.
                         </p>
-                       <div className='mt-6'>
-                        <Link to='/Signup' className=" rounded-lg bg-green-600 px-6 py-2.5 text-center text-sm font-medium capitalize leading-5 text-white hover:bg-green-700 focus:outline-none lg:mx-0 lg:w-auto">Subscribe Now</Link>
+                        <div className='mt-6'>
+                            <Link to='/Signup' className=" rounded-lg bg-green-600 px-6 py-2.5 text-center text-sm font-medium capitalize leading-5 text-white hover:bg-green-700 focus:outline-none lg:mx-0 lg:w-auto">Subscribe Now</Link>
+                        </div>
+                    </div>
+                </div>
+                
+                {/* <div class="relative">
+                    <div class="sticky top-0 flex h-screen items-center justify-center">
+                        <img src="https://images.unsplash.com/photo-1526004666140-1863a31e024f?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="h-full w-full object-cover" />
+                        <div class="absolute left-0 right-0 m-auto flex w-2/4 flex-col items-start justify-center gap-4 p-10 bg-white bg-opacity-45 font-extrabold">
+                            <h2 class="text-2xl font-bold">First Section</h2>
+                            <p class="font-sans text-black">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                        </div>
+                    </div>
+                    <div class="sticky top-0 flex h-screen items-center justify-center">
+                        <img src="https://images.unsplash.com/photo-1593679916468-851527f3ee27?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="h-full w-full object-cover" />
+
+                        <div class="absolute left-0 right-0 m-auto flex w-2/4 flex-col items-start justify-center gap-4 p-10 bg-white bg-opacity-45">
+                            <h2 class="text-2xl font-bold text-black">Second Section</h2>
+                            <p class="font-sans text-lg text-black">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
                         </div>
                     </div>
 
-                    {/* banner section */}
-                    {/* <div className="mt-10 flex justify-center">
-                        <img className="h-96 w-full rounded-xl object-cover lg:w-4/5" src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80" /> 
-                    </div> */}
+                    <div class="sticky top-0 flex h-screen items-center justify-center">
+                        <img src="https://images.unsplash.com/photo-1455577380025-4321f1e1dca7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="h-full w-full object-cover" />
 
-                </div>
+                        <div class="absolute left-0 right-0 m-auto flex w-2/4 flex-col items-start justify-center gap-4 p-10 bg-white bg-opacity-45">
+                            <h2 class="text-2xl font-bold text-black">Third Section</h2>
+                            <p class="font-sans text-lg text-black">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                        </div>
+                    </div>
+
+                    <div class="sticky top-0 flex h-screen items-center justify-center">
+                        <img src="https://images.unsplash.com/photo-1433086966358-54859d0ed716?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="h-full w-full object-cover" />
+
+                        <div class="absolute left-0 right-0 m-auto flex w-2/4 flex-col items-start justify-center gap-4 p-10 bg-white bg-opacity-45">
+                            <h2 class="text-2xl font-bold text-black">Fourth Section</h2>
+                            <p class="font-sans text-lg text-black">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                        </div>
+                    </div>
+                </div> */}
+
 
                 {/* Features */}
                 <section className="bg-white dark:bg-gray-900">
@@ -38,13 +68,13 @@ function AnotherHome() {
 
                         <div className="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 xl:mt-12 xl:grid-cols-3 xl:gap-12">
                             <div className='hover:scale-95 duration-300'>
-                                <img className="h-96 w-full rounded-lg object-cover " src="https://images.unsplash.com/photo-1621111848501-8d3634f82336?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1565&q=80" alt="" />
+                                <img className="h-96 w-full rounded-lg object-cover " src="https://tailwindui.com/img/ecommerce-images/home-page-02-edition-02.jpg" alt="" />
                                 <h2 className="mt-4 text-2xl font-semibold capitalize text-gray-800 dark:text-white">Latest blogs section</h2>
                                 <p className="mt-2 text-lg uppercase tracking-wider text-green-500 dark:text-blue-400">Blogs</p>
                             </div>
 
                             <div className='hover:scale-95 duration-300'>
-                                <img className="h-96 w-full rounded-lg object-cover " src="https://images.unsplash.com/photo-1621609764180-2ca554a9d6f2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80" alt="" />
+                                <img className="h-96 w-full rounded-lg object-cover " src="https://tailwindui.com/img/ecommerce-images/home-page-02-edition-01.jpg" alt="" />
                                 <h2 className="mt-4 text-2xl font-semibold capitalize text-gray-800 dark:text-white">Great community section</h2>
                                 <p className="mt-2 text-lg uppercase tracking-wider text-green-500 dark:text-blue-400">Community</p>
                             </div>
