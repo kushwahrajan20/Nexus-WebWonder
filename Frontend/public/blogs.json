@@ -1,143 +1,142 @@
 [
     {
-        "id":"1",
-        "image":"https://content.globalforestwatch.org/wp-content/uploads/2024/06/Smart-Patrol-Punggurawan_Camp-Punggurawan_06062024_MUF_091-4-scaled-e1718746067219-2048x1068.jpg",
-        "heading":"Small Grants, Big Impact: Meet the 2024 Recipients Driving Change with Global Forest Watch",
-        "details":"This year marks 10 years of impact for Global Forest Watch (GFW) and the Small Grants Fund (SGF). Since 2014, the SGF has made grants to 102 projects in 30 countries that have monitored around 851 million hectares of forests.",
-        "learn":"https://www.globalforestwatch.org/blog/users-in-action/2024-global-forest-watch-small-grants-fund-recipients/"
+        "id": "1",
+        "image": "https://content.globalforestwatch.org/wp-content/uploads/2024/06/Smart-Patrol-Punggurawan_Camp-Punggurawan_06062024_MUF_091-4-scaled-e1718746067219-2048x1068.jpg",
+        "heading": "Small Grants, Big Impact: Meet the 2024 Recipients Driving Change with Global Forest Watch",
+        "details": "This year marks 10 years of impact for Global Forest Watch (GFW) and the Small Grants Fund (SGF). Since 2014, the SGF has made grants to 102 projects in 30 countries that have monitored around 851 million hectares of forests.",
+        "learn": "https://www.globalforestwatch.org/blog/users-in-action/2024-global-forest-watch-small-grants-fund-recipients/"
     },
     {
-        "id":"2",
-        "image":"https://content.globalforestwatch.org/wp-content/uploads/2023/05/model_output_4km_aggregation_tcd30_model_v1.2.3_20230407_for_pres_with_legend__net_flux-2048x968.jpg",
-        "heading":"What’s New With GFW’s Forest Carbon Monitoring",
-        "details":"The Intergovernmental Panel on Climate Change’s (IPCC) latest Assessment Report reminds us that forests play a crucial role in the global carbon cycle and mitigating climate change.To act on that report and manage and protect forests — from policies ...",
-        "learn":"https://www.globalforestwatch.org/blog/data-and-tools/whats-new-carbon-flux-monitoring/"
+        "id": "2",
+        "image": "https://content.globalforestwatch.org/wp-content/uploads/2023/05/model_output_4km_aggregation_tcd30_model_v1.2.3_20230407_for_pres_with_legend__net_flux-2048x968.jpg",
+        "heading": "What’s New With GFW’s Forest Carbon Monitoring",
+        "details": "The Intergovernmental Panel on Climate Change’s (IPCC) latest Assessment Report reminds us that forests play a crucial role in the global carbon cycle and mitigating climate change.To act on that report and manage and protect forests — from policies ...",
+        "learn": "https://www.globalforestwatch.org/blog/data-and-tools/whats-new-carbon-flux-monitoring/"
     },
     {
-        "id":"3",
-        "image":"https://content.globalforestwatch.org/wp-content/uploads/2024/05/Vinicius_YTThumb_v001.png",
-        "heading":"Voices of Global Forest Watch: Vinicius Silgueiro, Instituto Centro de Vida",
-        "details":"The launch of Global Forest Watch (GFW) ushered in a new era of accountability and transparency around monitoring and protecting the world’s forests.To celebrate 10 years of impact, our Voices of Global Forest Watch series will highlight successes of community members.",
-        "learn":"https://www.globalforestwatch.org/blog/users-in-action/gfw-voices-vinicius-silgueiro/"
+        "id": "3",
+        "image": "https://content.globalforestwatch.org/wp-content/uploads/2024/05/Vinicius_YTThumb_v001.png",
+        "heading": "Voices of Global Forest Watch: Vinicius Silgueiro, Instituto Centro de Vida",
+        "details": "The launch of Global Forest Watch (GFW) ushered in a new era of accountability and transparency around monitoring and protecting the world’s forests.To celebrate 10 years of impact, our Voices of Global Forest Watch series will highlight successes of community members.",
+        "learn": "https://www.globalforestwatch.org/blog/users-in-action/gfw-voices-vinicius-silgueiro/"
     },
     {
-        "id":"4",
-        "image":"https://content.globalforestwatch.org/wp-content/uploads/2024/02/23904959686_4e6332d5c6_k.jpg",
-        "heading":"Ending Deforestation from Cocoa in West Africa with New Data-Driven Resources",
-        "details":"The global demand for chocolate has had a significant impact on West African forests. Approximately 70% of the global supply of cocoa originates from Ghana and Côte d’Ivoire, where production sites have replaced millions of ... ",
-        "learn":"https://www.globalforestwatch.org/blog/data-and-tools/data-resources-ending-deforestation-cocoa-west-africa/"
+        "id": "4",
+        "image": "https://content.globalforestwatch.org/wp-content/uploads/2024/02/23904959686_4e6332d5c6_k.jpg",
+        "heading": "Ending Deforestation from Cocoa in West Africa with New Data-Driven Resources",
+        "details": "The global demand for chocolate has had a significant impact on West African forests. Approximately 70% of the global supply of cocoa originates from Ghana and Côte d’Ivoire, where production sites have replaced millions of ... ",
+        "learn": "https://www.globalforestwatch.org/blog/data-and-tools/data-resources-ending-deforestation-cocoa-west-africa/"
     },
     {
-        "id":"5",
-        "image":"https://content.globalforestwatch.org/wp-content/uploads/2024/01/35781465501_c73c0cf65a_k.jpg",
-        "heading":"Comparing Forest Extent in 2020 from Global Forest Watch and the Forest Resources Assessment",
-        "details":"Global Forest Watch (GFW) and the Global Forest Resources Assessment (FRA) from the Food and Agricultural Organization of the United Nations (FAO) both provide global data sets with information on the world’s forests. ",
-        "learn":"https://www.globalforestwatch.org/blog/data-and-tools/forest-extent-2020-gfw-umd-forest-resources-assessment/"
+        "id": "9",
+        "image": "https://content.globalforestwatch.org/wp-content/uploads/2024/03/iStock-1481024069-2048x1122.jpg",
+        "heading": "Tropical Forest Loss Drops Steeply in Brazil and Colombia, but High Rates Persist Overall",
+        "details": "Between 2022 and 2023, Brazil and Colombia experienced a remarkable 36% and 49% decrease in primary forest loss, respectively. Yet despite these dramatic reductions, the rate of tropical primary forest loss in 2023 remained stubbornly consistent with recent years.",
+        "learn": "https://research.wri.org/gfr/latest-analysis-deforestation-trends?ap3c=IGaJN_itt7TrCUMBAGaJN_iQ4GxSszP8sFtsxAHJqUgHcKK81w"
     },
     {
-        "id":"6",
-        "image":"https://content.globalforestwatch.org/wp-content/uploads/2024/05/2023-Tech-Camp-organized-by-RFUS-%E2%80%93-workshop-in-Iquitos-Peru.-Credit-RFUS-e1717103282183.jpg",
-        "heading":"Indigenous Communities in the Peruvian Amazon Protect their Forest Heritage with MapBuilder",
-        "details":"Just for monitoring, just for surveillance, our leaders have been killed,” recounts Ranin Koshi (in Shipibo meaning Strong Man, Hunter), the leader of Organización Regional de AIDESEP-Ucayali (ORAU) in Peru.",
-        "learn":"https://www.globalforestwatch.org/blog/users-in-action/indigenous-communities-peru-amazon-mapbuilder/"
+        "id": "6",
+        "image": "https://content.globalforestwatch.org/wp-content/uploads/2024/05/2023-Tech-Camp-organized-by-RFUS-%E2%80%93-workshop-in-Iquitos-Peru.-Credit-RFUS-e1717103282183.jpg",
+        "heading": "Indigenous Communities in the Peruvian Amazon Protect their Forest Heritage with MapBuilder",
+        "details": "Just for monitoring, just for surveillance, our leaders have been killed,” recounts Ranin Koshi (in Shipibo meaning Strong Man, Hunter), the leader of Organización Regional de AIDESEP-Ucayali (ORAU) in Peru.",
+        "learn": "https://www.globalforestwatch.org/blog/users-in-action/indigenous-communities-peru-amazon-mapbuilder/"
     },
     {
-        "id":"7",
-        "image":"https://content.globalforestwatch.org/wp-content/uploads/2024/01/comparison_JRC-TMF-and-UMD-tree-cover-loss.png",
-        "heading":"Differences Between Global Forest Watch’s Tree Cover Loss Data and JRC’s Tropical Moist Forest Data",
-        "details":"The wide availability of forest and land cover maps based on satellite data provides more information on the world’s forests than ever before. However, this plethora of information can also be challenging for people trying to  understand differences in data sources.",
-        "learn":"https://www.globalforestwatch.org/blog/data-and-tools/tree-cover-loss-and-tropical-moist-forest-data-compared/"
+        "id": "7",
+        "image": "https://content.globalforestwatch.org/wp-content/uploads/2024/01/comparison_JRC-TMF-and-UMD-tree-cover-loss.png",
+        "heading": "Differences Between Global Forest Watch’s Tree Cover Loss Data and JRC’s Tropical Moist Forest Data",
+        "details": "The wide availability of forest and land cover maps based on satellite data provides more information on the world’s forests than ever before. However, this plethora of information can also be challenging for people trying to  understand differences in data sources.",
+        "learn": "https://www.globalforestwatch.org/blog/data-and-tools/tree-cover-loss-and-tropical-moist-forest-data-compared/"
     },
     {
-        "id":"8",
-        "image":"https://content.globalforestwatch.org/wp-content/uploads/2023/11/AMPA_photo-1_resized.jpg",
-        "heading":"Forest Guardians in Action: Amazónicos por la Amazonía Tackles Environmental Crimes with GFW",
-        "details":"“We are part of nature and nature lives in coexistence. Everything is interconnected and everything depends on each other … If we don’t work collaboratively and in a connected way, we sure won’t be able to move forward.” – Tatiana Espinosa",
-        "learn":"https://www.globalforestwatch.org/blog/users-in-action/amazonicos-por-la-amazonia-ampa-environmental-crimes/"
+        "id": "8",
+        "image": "https://content.globalforestwatch.org/wp-content/uploads/2023/11/AMPA_photo-1_resized.jpg",
+        "heading": "Forest Guardians in Action: Amazónicos por la Amazonía Tackles Environmental Crimes with GFW",
+        "details": "“We are part of nature and nature lives in coexistence. Everything is interconnected and everything depends on each other … If we don’t work collaboratively and in a connected way, we sure won’t be able to move forward.” – Tatiana Espinosa",
+        "learn": "https://www.globalforestwatch.org/blog/users-in-action/amazonicos-por-la-amazonia-ampa-environmental-crimes/"
     },
     {
-        "id":"9",
-        "image":"https://content.globalforestwatch.org/wp-content/uploads/2024/03/iStock-1481024069-2048x1122.jpg",
-        "heading":"Tropical Forest Loss Drops Steeply in Brazil and Colombia, but High Rates Persist Overall",
-        "details":"Between 2022 and 2023, Brazil and Colombia experienced a remarkable 36% and 49% decrease in primary forest loss, respectively. Yet despite these dramatic reductions, the rate of tropical primary forest loss in 2023 remained stubbornly consistent with recent years.",
-        "learn":"https://research.wri.org/gfr/latest-analysis-deforestation-trends?ap3c=IGaJN_itt7TrCUMBAGaJN_iQ4GxSszP8sFtsxAHJqUgHcKK81w"
+        "id": "10",
+        "image": "https://files.wri.org/d8/s3fs-public/styles/2000x695/s3/2023-11/tall-tree-harvest.jpg?VersionId=lLrh7ottq_d2Mi7MdR4jCfgwgudWff.y&h=56d0ca2e&itok=M_ghEgV5",
+        "heading": "Timber Harvesting and Climate Change Are Depleting Europe's Mature Forests",
+        "details": "A recent analysis found that tall, mature forests — which are critical for storing carbon and safeguarding biodiversity — are declining significantly in some parts of Europe, This is primarily due to a rise in timber harvesting.",
+        "learn": "https://www.wri.org/insights/european-tall-forest-decline?utm_medium=referral+&utm_source=GFWBlog&utm_campaign=GFWBlog%22target=%22_blank"
     },
     {
-        "id":"10",
-        "image":"https://files.wri.org/d8/s3fs-public/styles/2000x695/s3/2023-11/tall-tree-harvest.jpg?VersionId=lLrh7ottq_d2Mi7MdR4jCfgwgudWff.y&h=56d0ca2e&itok=M_ghEgV5",
-        "heading":"Timber Harvesting and Climate Change Are Depleting Europe's Mature Forests",
-        "details":"A recent analysis found that tall, mature forests — which are critical for storing carbon and safeguarding biodiversity — are declining significantly in some parts of Europe, This is primarily due to a rise in timber harvesting.",
-        "learn":"https://www.wri.org/insights/european-tall-forest-decline?utm_medium=referral+&utm_source=GFWBlog&utm_campaign=GFWBlog%22target=%22_blank"
+        "id": "11",
+        "image": "https://files.wri.org/d8/s3fs-public/styles/2000x695/s3/2023-11/aru-islands-cropped.jpg?VersionId=6MclVSshOgwKmNhzsZUXdfGrwiLfmqPz&h=6d0b3c59&itok=QgTsWhgi",
+        "heading": "Indigenous Peoples and Local Communities Are Using Satellite Data to Fight Deforestation",
+        "details": "The Saamaka, an Afro-descendent tribal community, reside deep in the heart of Suriname’s Amazonian rainforest. They’ve maintained their plots of land and small farms for generations, relying on the bounty of fruits ... ",
+        "learn": "https://www.wri.org/insights/indigenous-peoples-local-communities-use-satellite-data-deforestation?utm_medium=referral+&utm_source=GFWBlog&utm_campaign=GFWBlog%22target=%22_blank"
     },
     {
-        "id":"11",
-        "image":"https://files.wri.org/d8/s3fs-public/styles/2000x695/s3/2023-11/aru-islands-cropped.jpg?VersionId=6MclVSshOgwKmNhzsZUXdfGrwiLfmqPz&h=6d0b3c59&itok=QgTsWhgi",
-        "heading":"Indigenous Peoples and Local Communities Are Using Satellite Data to Fight Deforestation",
-        "details":"The Saamaka, an Afro-descendent tribal community, reside deep in the heart of Suriname’s Amazonian rainforest. They’ve maintained their plots of land and small farms for generations, relying on the bounty of fruits ... ",
-        "learn":"https://www.wri.org/insights/indigenous-peoples-local-communities-use-satellite-data-deforestation?utm_medium=referral+&utm_source=GFWBlog&utm_campaign=GFWBlog%22target=%22_blank"
+        "id": "12",
+        "image": "https://files.wri.org/d8/s3fs-public/styles/2000x695/s3/2024-06/Canada_fires_2023.jpg?VersionId=eJt0Oh3eQ8yz4dd2hB9SRtVqqX8LKpBx&h=a141e9ea&itok=pk_8OvWq",
+        "heading": "Canada's Record-breaking 2023 Wildfires Released Nearly 4 Times More Carbon than Global Aviation",
+        "details": "Canada’s 2023 wildfires made international headlines, causing billions of dollars in property damage, displacing thousands of people from their homes, and spewing air pollution that traveled as far as Europe and China.",
+        "learn": "https://www.wri.org/insights/canada-wildfire-emissions?ap3c=IGaJN_itt7TrCUMBAGaJN_iQ4GxSszP8sFtsxAHJqUgHcKK81w"
     },
     {
-        "id":"12",
-        "image":"https://files.wri.org/d8/s3fs-public/styles/2000x695/s3/2024-06/Canada_fires_2023.jpg?VersionId=eJt0Oh3eQ8yz4dd2hB9SRtVqqX8LKpBx&h=a141e9ea&itok=pk_8OvWq",
-        "heading":"Canada's Record-breaking 2023 Wildfires Released Nearly 4 Times More Carbon than Global Aviation",
-        "details":"Canada’s 2023 wildfires made international headlines, causing billions of dollars in property damage, displacing thousands of people from their homes, and spewing air pollution that traveled as far as Europe and China.",
-        "learn":"https://www.wri.org/insights/canada-wildfire-emissions?ap3c=IGaJN_itt7TrCUMBAGaJN_iQ4GxSszP8sFtsxAHJqUgHcKK81w"
+        "id": "13",
+        "image": "https://content.globalforestwatch.org/wp-content/uploads/2023/05/Subi-Sridharan-Photography-1-e1684423963129.jpg",
+        "heading": "Protecting Critical Forest Habitats in the Maasai Mara with Mara Elephant Project",
+        "details": "Kenya is known for its incredible ecosystem biodiversity, including lowland and montane forests, savannah and scrubland. Among them is the Greater Mara Ecosystem, world famous for its wildlife, with populations of lions, wildebeest ...",
+        "learn": "https://www.globalforestwatch.org/blog/users-in-action/protecting-forest-habitats-mara-elephant-project/"
     },
     {
-        "id":"13",
-        "image":"https://content.globalforestwatch.org/wp-content/uploads/2023/05/Subi-Sridharan-Photography-1-e1684423963129.jpg",
-        "heading":"Protecting Critical Forest Habitats in the Maasai Mara with Mara Elephant Project",
-        "details":"Kenya is known for its incredible ecosystem biodiversity, including lowland and montane forests, savannah and scrubland. Among them is the Greater Mara Ecosystem, world famous for its wildlife, with populations of lions, wildebeest ...",
-        "learn":"https://www.globalforestwatch.org/blog/users-in-action/protecting-forest-habitats-mara-elephant-project/"
+        "id": "14",
+        "image": "https://files.wri.org/d8/s3fs-public/styles/2000x695/s3/2022-08/forest_fire_borneo.jpg?VersionId=yv1ekU5KJGyYqQary8X3WPh40X1DecRJ&h=dbfb23f9&itok=3qrrwqvz",
+        "heading": "The Latest Data Confirms: Forest Fires Are Getting Worse",
+        "details": "Using data from a recent study by researchers at the University of Maryland, we calculated that forest fires now result in 3 million more hectares of tree cover loss per year compared to 2001 — an area roughly the size of Belgium — and accounted for more than one-quarter of all ...",
+        "learn": "https://www.wri.org/insights/global-trends-forest-fires?utm_medium=referral+&utm_source=GFWBlog&utm_campaign=GFWBlog%22target=%22_blank"
     },
     {
-        "id":"14",
-        "image":"https://files.wri.org/d8/s3fs-public/styles/2000x695/s3/2022-08/forest_fire_borneo.jpg?VersionId=yv1ekU5KJGyYqQary8X3WPh40X1DecRJ&h=dbfb23f9&itok=3qrrwqvz",
-        "heading":"The Latest Data Confirms: Forest Fires Are Getting Worse",
-        "details":"Using data from a recent study by researchers at the University of Maryland, we calculated that forest fires now result in 3 million more hectares of tree cover loss per year compared to 2001 — an area roughly the size of Belgium — and accounted for more than one-quarter of all ...",
-        "learn":"https://www.wri.org/insights/global-trends-forest-fires?utm_medium=referral+&utm_source=GFWBlog&utm_campaign=GFWBlog%22target=%22_blank"
+        "id": "15",
+        "image": "https://wri-indonesia.org/sites/default/files/styles/2000x695/public/2024-05/IMG_5247.JPG?h=1d587bd2&itok=JVE1xykr",
+        "heading": "The Forest Monitoring Story Behind a Cup of Gayo Coffee",
+        "details": "Gayo coffee, a variety of Arabica coffee, stands as a flagship commodity for Aceh Province. Alongside North Sumatra, Aceh is the largest producer of Arabica coffee in Indonesia. Aceh on average produces around 66,000 tons of Arabica coffee every year in 2022.",
+        "learn": "https://wri-indonesia.org/en/insights/forest-monitoring-story-behind-cup-gayo-coffee"
     },
     {
-        "id":"15",
-        "image":"https://wri-indonesia.org/sites/default/files/styles/2000x695/public/2024-05/IMG_5247.JPG?h=1d587bd2&itok=JVE1xykr",
-        "heading":"The Forest Monitoring Story Behind a Cup of Gayo Coffee",
-        "details":"Gayo coffee, a variety of Arabica coffee, stands as a flagship commodity for Aceh Province. Alongside North Sumatra, Aceh is the largest producer of Arabica coffee in Indonesia. Aceh on average produces around 66,000 tons of Arabica coffee every year in 2022.",
-        "learn":"https://wri-indonesia.org/en/insights/forest-monitoring-story-behind-cup-gayo-coffee"
+        "id": "16",
+        "image": "https://research.wri.org/sites/default/files/gfr/2020-11/fire-indonesia-kalimantan-header-forest-pulse.jpg",
+        "heading": "Tropical Primary Forest Loss Worsened in 2022, Despite International Commitments to End Deforestation",
+        "details": "Tropical primary forest loss in 2022 totaled 4.1 million hectares, the equivalent of losing 11 football (soccer) fields of forest per minute. All this forest loss produced 2.7 gigatonnes (Gt) of carbon dioxide emissions.",
+        "learn": "https://research.wri.org/gfr/global-tree-cover-loss-data-2022"
     },
     {
-        "id":"16",
-        "image":"https://research.wri.org/sites/default/files/gfr/2020-11/fire-indonesia-kalimantan-header-forest-pulse.jpg",
-        "heading":"Tropical Primary Forest Loss Worsened in 2022, Despite International Commitments to End Deforestation",
-        "details":"Tropical primary forest loss in 2022 totaled 4.1 million hectares, the equivalent of losing 11 football (soccer) fields of forest per minute. All this forest loss produced 2.7 gigatonnes (Gt) of carbon dioxide emissions.",
-        "learn":"https://research.wri.org/gfr/global-tree-cover-loss-data-2022"
+        "id": "17",
+        "image": "https://content.globalforestwatch.org/wp-content/uploads/2015/12/5660824876_3209da23b8_b.jpg",
+        "heading": "Global Forest Watch’s 2022 Tree Cover Loss Data Explained",
+        "details": "New tree cover loss data from the University of Maryland (UMD) and available on Global Forest Watch (GFW) shows high rates of primary forest loss in 2022 despite political ambitions to curb loss. What does the data measure, what is different this year and how does it compare to other official estimates of deforestation?",
+        "learn": "https://www.globalforestwatch.org/blog/users-in-action/2024-global-forest-watch-small-grants-fund-recipients/"
     },
     {
-        "id":"17",
-        "image":"https://content.globalforestwatch.org/wp-content/uploads/2015/12/5660824876_3209da23b8_b.jpg",
-        "heading":"Global Forest Watch’s 2022 Tree Cover Loss Data Explained",
-        "details":"New tree cover loss data from the University of Maryland (UMD) and available on Global Forest Watch (GFW) shows high rates of primary forest loss in 2022 despite political ambitions to curb loss. What does the data measure, what is different this year and how does it compare to other official estimates of deforestation?",
-        "learn":"https://www.globalforestwatch.org/blog/users-in-action/2024-global-forest-watch-small-grants-fund-recipients/"
+        "id": "18",
+        "image": "https://files.wri.org/d8/s3fs-public/styles/2000x695/s3/2024-06/R80MM5.jpg?VersionId=nsvc0AA6wttxmyan4ZuUhcklWX3WdjSB&h=f0ab467d&itok=c6d74AG4",
+        "heading": "4 Growing Threats to Europe’s Forests: Logging, Bioenergy, Wildfires and Pests",
+        "details": "Impacts include fewer tall forests, climate change-induced wildfires, insect outbreaks, and increased wood harvesting to meet additional demand for “home-grown” biomass in response to the Ukraine war.",
+        "learn": "https://www.wri.org/insights/europe-forest-loss-drivers"
     },
     {
-        "id":"18",
-        "image":"https://files.wri.org/d8/s3fs-public/styles/2000x695/s3/2024-06/R80MM5.jpg?VersionId=nsvc0AA6wttxmyan4ZuUhcklWX3WdjSB&h=f0ab467d&itok=c6d74AG4",
-        "heading":"4 Growing Threats to Europe’s Forests: Logging, Bioenergy, Wildfires and Pests",
-        "details":"Impacts include fewer tall forests, climate change-induced wildfires, insect outbreaks, and increased wood harvesting to meet additional demand for “home-grown” biomass in response to the Ukraine war.",
-        "learn":"https://www.wri.org/insights/europe-forest-loss-drivers"
+        "id": "5",
+        "image": "https://content.globalforestwatch.org/wp-content/uploads/2024/01/35781465501_c73c0cf65a_k.jpg",
+        "heading": "Comparing Forest Extent in 2020 from Global Forest Watch and the Forest Resources Assessment",
+        "details": "Global Forest Watch (GFW) and the Global Forest Resources Assessment (FRA) from the Food and Agricultural Organization of the United Nations (FAO) both provide global data sets with information on the world’s forests. ",
+        "learn": "https://www.globalforestwatch.org/blog/data-and-tools/forest-extent-2020-gfw-umd-forest-resources-assessment/"
     },
     {
-        "id":"19",
-        "image":"https://content.globalforestwatch.org/wp-content/uploads/2023/06/36260971366_9602acf0cf_k-e1687537077839.jpg",
-        "heading":"3 Ways Global Forest Watch Can Support the EU Law on Deforestation-free Supply Chains",
-        "details":"In May 2023, the European Union (EU) adopted a regulation that aims to prevent products and commodities linked to deforestation and forest degradation from being sold in the EU, thereby supporting global efforts to mitigate climate change such as the Paris Agreement ...",
-        "learn":"https://www.globalforestwatch.org/blog/data-and-tools/satellite-data-eu-regulation-deforestation-free-supply-chains/"
+        "id": "19",
+        "image": "https://content.globalforestwatch.org/wp-content/uploads/2023/06/36260971366_9602acf0cf_k-e1687537077839.jpg",
+        "heading": "3 Ways Global Forest Watch Can Support the EU Law on Deforestation-free Supply Chains",
+        "details": "In May 2023, the European Union (EU) adopted a regulation that aims to prevent products and commodities linked to deforestation and forest degradation from being sold in the EU, thereby supporting global efforts to mitigate climate change such as the Paris Agreement ...",
+        "learn": "https://www.globalforestwatch.org/blog/data-and-tools/satellite-data-eu-regulation-deforestation-free-supply-chains/"
     },
     {
-        "id":"20",
-        "image":"https://content.globalforestwatch.org/wp-content/uploads/2023/02/Featured_RFUS-RA-2048x1536.jpg",
-        "heading":"Introducing Global Forest Watch’s 2023 Small Grants Fund Recipients",
-        "details":"The power of Global Forest Watch (GFW) culminates with its application on the ground. After reviewing hundreds of inspiring proposals, the GFW team is pleased to welcome 15 Small Grants Fund (SGF) recipients in 2023 across Central and South America, Africa and Southeast Asia that are harnessing GFW tools to protect ...",
-        "learn":"https://www.globalforestwatch.org/blog/users-in-action/2023-global-forest-watch-small-grants-fund-recipients/"
+        "id": "20",
+        "image": "https://content.globalforestwatch.org/wp-content/uploads/2023/02/Featured_RFUS-RA-2048x1536.jpg",
+        "heading": "Introducing Global Forest Watch’s 2023 Small Grants Fund Recipients",
+        "details": "The power of Global Forest Watch (GFW) culminates with its application on the ground. After reviewing hundreds of inspiring proposals, the GFW team is pleased to welcome 15 Small Grants Fund (SGF) recipients in 2023 across Central and South America, Africa and Southeast Asia that are harnessing GFW tools to protect ...",
+        "learn": "https://www.globalforestwatch.org/blog/users-in-action/2023-global-forest-watch-small-grants-fund-recipients/"
     }
-    
 ]

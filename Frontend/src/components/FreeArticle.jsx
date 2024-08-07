@@ -25,10 +25,10 @@ function FreeArticle() {
         getFreeArticle();
     },[])
 
-    const filterData = freeArticle.filter((data) => data.category === "Free");
+    
 
     var settings = {
-        dots: true,
+        dots:true,
         infinite: true,
         slidesToShow: 3,
         slidesToScroll: 1,
@@ -72,7 +72,7 @@ function FreeArticle() {
             <div className="max-w-screen-2xl container md:px-20 px-4 mb-10">
                 <div className="slider-container">
                     <Slider {...settings} >
-                        {filterData.map((item) => (<Cards item={item} key={item.id} />))}
+                        {freeArticle.map((item) => (<Cards item={item} key={item.id} />))}
                     </Slider>
                 </div>
             </div>

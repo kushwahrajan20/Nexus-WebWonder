@@ -12,6 +12,8 @@ import Career from './Career/Career'
 import Explore from './Explore/Explore'
 import Community from './Community/Community'
 import Edupoint from './Edupoint/Edupoint';
+import ErrorPage from './components/ErrorPage';
+
 
 function App() {
 
@@ -30,6 +32,7 @@ function App() {
         <Route path="/Explore" element={authUser? <Explore/>:<Navigate to='/Signup'/> }></Route>
         <Route path="/Community" element={authUser? <Community/>:<Navigate to='/Signup'/> }></Route>
         <Route path="/Edupoint" element={authUser? <Edupoint/>:<Navigate to='/Signup'/> }></Route>
+        <Route path="/Error" element={authUser? <ErrorPage/>:<Navigate to='/Signup'/> }></Route>
         
       </Routes>
       <Toaster/>

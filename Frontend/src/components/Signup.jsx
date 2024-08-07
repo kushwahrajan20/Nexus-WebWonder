@@ -83,7 +83,7 @@ function Signup() {
                             <div className="mt-4 space-y-2">
                                 <span>Password</span>
                                 <br />
-                                <input type="text"
+                                <input type="password"
                                     placeholder="Enter your password"
                                     className="w-80 py-1 px-3 border rounded-md outline-none"
                                     {...register("password", { required: true })}

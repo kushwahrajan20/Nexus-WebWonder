@@ -13,12 +13,15 @@ function Education() {
 
   console.log(filterData1)
   var settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 3,
-    slidesToScroll: 3,
-    initialSlide: 0,
+    dots:true,
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        initialSlide: 0,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        pauseOnHover: true,
+
     responsive: [
       {
         breakpoint: 1024,

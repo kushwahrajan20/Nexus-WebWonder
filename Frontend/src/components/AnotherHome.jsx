@@ -2,13 +2,16 @@ import React from 'react'
 import FreeArticle from './FreeArticle';
 import ClientSay from './ClientSay';
 import { Link } from "react-router-dom";
+import { useAuth } from '../Context/AuthProvider';
 
 function AnotherHome() {
+
+    const [authUser, setAuthUser] = useAuth()
 
     return (
         <>
             <div className='mt-12'>
-                <div className="container mx-auto px-6 py-16 h-screen text-center rounded-md bg-scroll bg-[url('https://images.unsplash.com/photo-1526004666140-1863a31e024f?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')]">
+                <div className="px-6 py-16 h-screen text-center rounded-md bg-top bg-cover bg-[url('https://images.unsplash.com/photo-1526004666140-1863a31e024f?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')]">
 
                     <div className="mx-auto max-w-lg p-7 mt-44 rounded-md bg-white bg-opacity-80">
                         <h1 className="text-3xl font-bold text-gray-800 dark:text-white lg:text-5xl">Welcome to world of forestry!</h1>
@@ -16,47 +19,14 @@ function AnotherHome() {
                             Immerse yourself in interactive forest guides, virtual tours, and educational resources
                             that reveal the secrets of sustainable forestry and wildlife conservation.
                         </p>
-                        <div className='mt-6'>
-                            <Link to='/Signup' className=" rounded-lg bg-green-600 px-6 py-2.5 text-center text-sm font-medium capitalize leading-5 text-white hover:bg-green-700 focus:outline-none lg:mx-0 lg:w-auto">Subscribe Now</Link>
-                        </div>
+                        {authUser ? <div className='mt-6 '>
+                            <Link to='/Explore' className=" rounded-lg bg-green-600 px-6 py-2.5 text-center text-sm font-medium capitalize leading-5 text-white hover:bg-green-700 focus:outline-none lg:mx-0 lg:w-auto">Explore more</Link>
+                        </div> :
+                            <div className='mt-6'>
+                                <Link to='/Signup' className=" rounded-lg bg-green-600 px-6 py-2.5 text-center text-sm font-medium capitalize leading-5 text-white hover:bg-green-700 focus:outline-none lg:mx-0 lg:w-auto">Subscribe Now</Link>
+                            </div>}
                     </div>
                 </div>
-                
-                {/* <div class="relative">
-                    <div class="sticky top-0 flex h-screen items-center justify-center">
-                        <img src="https://images.unsplash.com/photo-1526004666140-1863a31e024f?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="h-full w-full object-cover" />
-                        <div class="absolute left-0 right-0 m-auto flex w-2/4 flex-col items-start justify-center gap-4 p-10 bg-white bg-opacity-45 font-extrabold">
-                            <h2 class="text-2xl font-bold">First Section</h2>
-                            <p class="font-sans text-black">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
-                        </div>
-                    </div>
-                    <div class="sticky top-0 flex h-screen items-center justify-center">
-                        <img src="https://images.unsplash.com/photo-1593679916468-851527f3ee27?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="h-full w-full object-cover" />
-
-                        <div class="absolute left-0 right-0 m-auto flex w-2/4 flex-col items-start justify-center gap-4 p-10 bg-white bg-opacity-45">
-                            <h2 class="text-2xl font-bold text-black">Second Section</h2>
-                            <p class="font-sans text-lg text-black">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
-                        </div>
-                    </div>
-
-                    <div class="sticky top-0 flex h-screen items-center justify-center">
-                        <img src="https://images.unsplash.com/photo-1455577380025-4321f1e1dca7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="h-full w-full object-cover" />
-
-                        <div class="absolute left-0 right-0 m-auto flex w-2/4 flex-col items-start justify-center gap-4 p-10 bg-white bg-opacity-45">
-                            <h2 class="text-2xl font-bold text-black">Third Section</h2>
-                            <p class="font-sans text-lg text-black">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
-                        </div>
-                    </div>
-
-                    <div class="sticky top-0 flex h-screen items-center justify-center">
-                        <img src="https://images.unsplash.com/photo-1433086966358-54859d0ed716?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="h-full w-full object-cover" />
-
-                        <div class="absolute left-0 right-0 m-auto flex w-2/4 flex-col items-start justify-center gap-4 p-10 bg-white bg-opacity-45">
-                            <h2 class="text-2xl font-bold text-black">Fourth Section</h2>
-                            <p class="font-sans text-lg text-black">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
-                        </div>
-                    </div>
-                </div> */}
 
 
                 {/* Features */}
@@ -68,25 +38,27 @@ function AnotherHome() {
 
                         <div className="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 xl:mt-12 xl:grid-cols-3 xl:gap-12">
                             <div className='hover:scale-95 duration-300'>
-                                <img className="h-96 w-full rounded-lg object-cover " src="https://tailwindui.com/img/ecommerce-images/home-page-02-edition-02.jpg" alt="" />
-                                <h2 className="mt-4 text-2xl font-semibold capitalize text-gray-800 dark:text-white">Latest blogs section</h2>
-                                <p className="mt-2 text-lg uppercase tracking-wider text-green-500 dark:text-blue-400">Blogs</p>
+                                <img className="h-96 w-full rounded-lg object-cover " src="https://img.freepik.com/premium-photo/fantasy-floating-island-with-mountains-trees-animals-green-grass-isolated-with-clouds_667286-71.jpg?w=900" alt="" />
+                                <h2 className="mt-4 text-2xl font-semibold capitalize text-gray-800 dark:text-white">Nature's beauty through lens</h2>
+                                <a href='/ArtAndPhoto' className="mt-2 text-lg uppercase tracking-wider text-green-500 dark:text-blue-400">Art&Photo</a>
                             </div>
 
                             <div className='hover:scale-95 duration-300'>
-                                <img className="h-96 w-full rounded-lg object-cover " src="https://tailwindui.com/img/ecommerce-images/home-page-02-edition-01.jpg" alt="" />
-                                <h2 className="mt-4 text-2xl font-semibold capitalize text-gray-800 dark:text-white">Great community section</h2>
-                                <p className="mt-2 text-lg uppercase tracking-wider text-green-500 dark:text-blue-400">Community</p>
+                                <img className="h-96 w-full rounded-lg object-cover " src="https://media.istockphoto.com/id/639519370/photo/man-using-vr-headset.jpg?s=612x612&w=0&k=20&c=-eQlwaO6dLnntMT3t4dIxdQ0iGnyamm0bu2rvNZgt_8=" alt="" />
+                                <h2 className="mt-4 text-2xl font-semibold capitalize text-gray-800 dark:text-white">Step into the forest</h2>
+                                <a href='/Explore' className="mt-2 text-lg uppercase tracking-wider text-green-500 dark:text-blue-400">Virtual Tour</a>
                             </div>
 
                             <div className='hover:scale-95 duration-300'>
-                                <img className="h-96 w-full rounded-lg object-cover " src="https://images.unsplash.com/photo-1531403009284-440f080d1e12?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="" />
-                                <h2 className="mt-4 text-2xl font-semibold capitalize text-gray-800 dark:text-white">Best data collections</h2>
-                                <p className="mt-2 text-lg uppercase tracking-wider text-green-500 dark:text-blue-400">Dashboard</p>
+                                <img className="h-96 w-full rounded-lg object-cover " src="https://www.shleppers.com/wp-content/uploads/2016/11/about_community-feat.jpg" alt="" />
+                                <h2 className="mt-4 text-2xl font-semibold capitalize text-gray-800 dark:text-white">forest is our shared passion</h2>
+                                <a href='/Community' className="mt-2 text-lg uppercase tracking-wider text-green-500 dark:text-blue-400">Community</a>
                             </div>
                         </div>
                     </div>
                 </section>
+
+                
 
                 {/* blog section */}
                 <section className="bg-white dark:bg-gray-900">
@@ -228,8 +200,8 @@ function AnotherHome() {
 
                 {/* Also discover This */}
                 <div className="bg-white dark:bg-gray-900">
-                    <div className="container mx-auto px-6 py-8">
-                        <h1 className="text-center text-3xl font-semibold capitalize text-gray-800 dark:text-white lg:text-4xl">Discovere More</h1>
+                    <div className="mx-auto w-11/12 px-6 py-8">
+                        <h1 className="text-center text-3xl font-semibold capitalize text-gray-800 dark:text-white lg:text-4xl">Discover More</h1>
 
                         <p className="mx-auto mt-4 max-w-2xl text-center text-gray-500 dark:text-gray-300 xl:mt-6">
                             Discover wonders of forest ecosystems, meet the professionals dedicated to preserving them, and
